@@ -1,0 +1,4 @@
+target
+.git
+.gitlab-ci.yml
+Dockerfile
