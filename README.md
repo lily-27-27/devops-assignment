@@ -139,7 +139,7 @@ docker-compose up -d
 | ------------ | --------------------------------------------------- |
 | Terraform    | Use `terraform destroy` or versioned state rollback |
 | Docker Image | Tag with version numbers, redeploy stable tag       |
-| Database     | Maintain `down` SQL scripts or use Flyway undo      |
+| Database     | Maintain `down` SQL scripts       |
 | CI/CD        | Revert pipeline changes via Git                     |
 
 
@@ -165,6 +165,4 @@ Applies version-controlled DB migrations
 
 Monitors system health using Grafana and Prometheus
 
-yaml
-Copy
-Edit
+
